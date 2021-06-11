@@ -1,19 +1,21 @@
 <template>
   <div class="flex">
-    <img src="@/assets/images/logo.png" alt="logo">
+    <router-link to="/">
+      <img src="@/assets/images/logo.png" alt="logo" />
+    </router-link>
     <ul class="flex mt-5">
       <li>
-        <router-link to="/movies" class="ml-5">
+        <router-link to="/" class="ml-5">
           Moives
         </router-link>
       </li>
-        <li>
-        <router-link to="/actors"  class="ml-5">
+      <li>
+        <router-link to="/actors" class="ml-5">
           Actors
         </router-link>
       </li>
-        <li>
-        <router-link to="/profile"  class="ml-5">
+      <li>
+        <router-link to="/profile" class="ml-5">
           Profile
         </router-link>
       </li>
@@ -22,11 +24,7 @@
 </template>
 
 <script>
-export default {
-
-}
+    export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>

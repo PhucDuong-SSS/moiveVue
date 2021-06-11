@@ -1,6 +1,5 @@
 <template>
-  <div class="container mx-auto " >
-      
+  <div class="container mx-auto " >      
     <PopularMovies/>
   </div>
 </template>
