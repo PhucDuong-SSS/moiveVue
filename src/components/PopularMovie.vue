@@ -1,7 +1,13 @@
 <template>
-  <div>
+  <div class="mx-5">
     <h2 class="mt-5 text-yellow-500 uppercase font-semibold">Populer Movies</h2>
-    <MovieItem/>
+    <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:cols-4 gap-8">
+        <MovieItem/>
+        <MovieItem/>
+        <MovieItem/>
+        <MovieItem/>
+    </div>
+    
   </div>
 </template>
 
